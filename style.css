@@ -1,0 +1,113 @@
+.lkl {
+    display: flex;
+    justify-content: center;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(29, 226, 29);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: wheat;
+}
+
+.time {
+    margin-left: 40%;
+    width: 300px;
+    height: 300px;
+    color: azure;
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 40px;
+}
+
+.newpage {
+    width: 100%;
+    height: auto;
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+}
+.clas1{
+    display: flex;
+    flex-direction: column;
+}
+.loading {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    border: 15px solid black;
+    border-radius: 50%;
+    border-top: 15px solid yellow;
+    animation: loading 2s linear infinite;
+}
+
+@keyframes loading {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.none {
+    display: none;
+}
+.cards{
+    margin-top: 20px;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(15, 144, 101);
+    border-radius: 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+}
+.testquiz{
+    width: 50%;
+    height: 660px;
+    background-color: rgb(0, 255, 149);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.carde{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(65, 63, 63);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.basuxi{
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+}
+.btn{
+    font-size: 30px;
+    width: 200px;
+    background-color: rgb(236, 190, 188);
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.txtminut{
+    font-size: 30px;
+    font-weight: bold;   
+}
+.none{
+    display: none;
+}
